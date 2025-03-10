@@ -1,0 +1,98 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bevan:ital@0;1&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Bevan", serif;
+    font-weight: 500;
+}
+
+body{
+    width: 100vw;
+    height: 100%;
+    background-color: #101116;
+    overflow-x: hidden;
+}
+
+header{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://repository-images.githubusercontent.com/607713094/a324dd9f-2fe0-493e-874a-439b9c57406f);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+main{
+    background-color: rgb(236, 235, 235);
+    width: 100%;
+    height: 800px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title h1{
+    font-size: 2.1em;
+}
+
+.title span{
+    display: block;
+    width: 200px;
+    height: 2px;
+    background-color: #101116;
+    border-radius: 10px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-solution{
+    display: block;
+    width: 250px;
+    height: 200px;
+    background-color: #101116;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card-solution img{
+    display: block;
+    width: 250px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 25px;
+    transition:  transform  0.3s;
+    cursor: pointer;
+}
+
+.card-solution img:hover{
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+
+
+
