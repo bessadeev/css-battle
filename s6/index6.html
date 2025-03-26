@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#6</title>
+</head>
+<body>
+
+    <div class="main">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div><!--main-->
+    
+  </body>
+  
+  
+  <style>
+  
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+  
+    body{
+      width:100vw;
+      height:100vh;
+      background-color:#E3516E;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+  
+    .main{
+      width:200px;
+      height:200px;
+      display:grid;
+      grid-template-columns: 2 1fr 1fr;
+      grid-template-rows: 2 1fr 1fr;
+    }
+  
+    .main div:nth-child(1){
+      background-color:#51B5A9;
+       grid-column:1;
+       grid-row:1;
+      border-radius: 500px 0px 0px 0px;
+    }
+  
+     .main div:nth-child(2){
+      background-color:#FADE8B;
+       grid-column:2;
+       grid-row:1;
+           border-radius: 0px 500px 0px 0px;
+    }
+  
+      .main div:nth-child(3){
+      background-color:#F7F3D7;
+       grid-column:1;
+       grid-row:2;
+       border-radius: 0px 0px 0px 500px;
+    }
+    
+  </style>
+</html>
